@@ -27,14 +27,14 @@ Este repositório documenta a criação e estruturação de um **Caderno Temáti
 
 ---
 
-## 📂 Fontes de Informação Selecionadas
+- ## 📂 Fontes de Informação Selecionadas
 
-Para garantir alta relevância e precisão nas respostas geradas pelo NotebookLM, o caderno foi alimentado com as seguintes fontes primárias:
+Para garantir alta relevância, precisão e embasamento técnico nas consultas realizadas pelo NotebookLM, o caderno temático foi alimentado com as seguintes fontes primárias:
 
-- **Documentação Oficial do Python:** Tópicos sobre estruturas de dados, manipulação de arquivos e tratamento de exceções.
-- **Guias de Pandas e NumPy:** Documentação técnica voltada à análise e limpeza de dados.
-- **Boas Práticas de Cibersegurança em Python:** Artigos sobre automação de scripts para análise de logs de rede e segurança da informação.
-- **Notas de Cursos e Bootcamps:** Apontamentos sobre Lógica de Programação, Machine Learning e IA Generativa (Bootcamp Bradesco / Dell Lead).
+- 🐍 **[Tutorial Oficial do Python (v3.13)](https://docs.python.org/pt-br/3.13/tutorial/index.html):** Documentação oficial em português cobrindo sintaxe, estruturas de dados nativas, controle de fluxo e fundamentos da linguagem.
+- 🔢 **[NumPy Basics: Broadcasting Guide](https://numpy.org/doc/stable/user/basics.broadcasting.html):** Documentação técnica do NumPy detalhando o funcionamento de operações de *broadcasting* entre arranjos multidimensionais para computação numérica eficiente.
+- 📊 **[Pandas Cheat Sheet (Dataquest)](https://www.dataquest.io/wp-content/uploads/2024/10/Pandas-Cheat-Sheet.pdf):** Guia rápido e prático de referência cobrindo manipulação, filtragem, transformação e limpeza de estruturas de dados (*DataFrames* e *Series*).
+- 🛡️ **Análise de Logs de Rede Sem Fio (Artigo Acadêmico / PDF):** `06-893-Correções de Artigo - Análise de logs de rede sem fio com suporte à tomada de decisão na infraestrutura Tecnologia da informação.pdf` — Estudo focado em automação, processamento de logs e segurança da informação aplicada à infraestrutura de TI.
 
 ---
 
