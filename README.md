@@ -80,5 +80,5 @@ O uso do NotebookLM provou ser uma estratégia altamente eficiente para organiza
 
 Desenvolvido por **Carlos Eduardo de Castro** 👋
 
-- **LinkedIn:** [Seu Perfil do LinkedIn](www.linkedin.com/in/carlos-eduardo-de-castro-a4a94b27)
-- **GitHub:** [@seu-usuario](https://github.com/cecastroprog)
+- **LinkedIn:** [Meu Perfil do LinkedIn](www.linkedin.com/in/carlos-eduardo-de-castro-a4a94b27)
+- **GitHub:** [@cecastroprog](https://github.com/cecastroprog)
