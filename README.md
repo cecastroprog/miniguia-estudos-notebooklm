@@ -14,7 +14,7 @@ Este repositório documenta a criação e estruturação de um **Caderno Temáti
 ### 🚀 Objetivos de Estudo
 1. **Sintetizar Fundamentos e Ferramentas:** Mapear o ecossistema Python voltado à manipulação de dados (`Pandas`, `NumPy`), análise de logs e automação.
 2. **Potencializar o Aprendizado com GenAI:** Utilizar o NotebookLM para realizar consultas contextuais, gerar resumos executivos e criar questionários de fixação baseados exclusivamente nas fontes carregadas.
-3. **Consolidar Práticas de Estudo Continuo:** Estabelecer um fluxo de trabalho onde ferramentas de IA atuem como copilotos na jornada de transição e aprimoramento em Dados e Cibersegurança.
+3. **Consolidar Práticas de Estudo Contínuo:** Estabelecer um fluxo de trabalho onde ferramentas de IA atuem como copilotos na jornada de transição e aprimoramento em Dados e Cibersegurança.
 
 ---
 
@@ -27,7 +27,7 @@ Este repositório documenta a criação e estruturação de um **Caderno Temáti
 
 ---
 
-- ## 📂 Fontes de Informação Selecionadas
+## 📂 Curadoria de Fontes Selecionadas
 
 Para garantir alta relevância, precisão e embasamento técnico nas consultas realizadas pelo NotebookLM, o caderno temático foi alimentado com as seguintes fontes primárias:
 
@@ -38,36 +38,55 @@ Para garantir alta relevância, precisão e embasamento técnico nas consultas r
 
 ---
 
-## 💡 Como Usar o NotebookLM para Estudo de Python
+## 💡 Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
 
-Abaixo está o passo a passo prático aplicado durante a construção deste projeto:
+Nesta etapa, explorei como refinar as perguntas no NotebookLM para extrair respostas precisas e estritamente baseadas nos documentos carregados.
 
-1. **Criação do Caderno Temático:**
-   - Acesse o [NotebookLM](https://notebooklm.google.com/).
-   - Crie um novo caderno denominado `Estudos Python - Dados & Cyber`.
+### 🧪 Teste 1: Comparativo de Estruturas de Dados
+* **Prompt Inicial (Genérico):** `"Me fale sobre listas e tuplas em python."`
+* **Resultado / Dificuldade:** A resposta foi muito básica e não conectou o uso das estruturas ao contexto de Análise de Dados.
+* **Prompt Refinado (Eficaz):** `"Com base na documentação do Python carregada, crie uma tabela comparativa entre Listas, Tuplas e Dicionários focando em mutabilidade, performance e casos de uso típicos em análise de dados."`
+* **Aprendizado:** Prompts que especificam a estrutura de saída (ex: tabela) e a aplicação prática (ex: análise de dados) trazem respostas significativamente mais úteis.
 
-2. **Upload e Organização das Fontes:**
-   - Importe URLs de documentações oficiais, PDFs de artigos técnicos e notas em texto simples.
-   - *Nota:* O NotebookLM utiliza apenas o conteúdo dessas fontes para responder às suas dúvidas, eliminando alucinações de informações fora de contexto.
-
-3. **Geração de Conteúdos e Prompts Utilizados:**
-   - **Resumo do Módulo:** `"Crie um guia rápido explicando a diferença entre Listas, Tuplas e Dicionários com exemplos práticos de uso em dados."`
-   - **Geração de Exercícios:** `"Elabore 3 perguntas com gabarito para testar meu conhecimento sobre o uso da biblioteca Pandas na leitura de arquivos CSV."`
-   - **Resumo Executivo (Audio/Briefing):** Utilização do recurso de áudio/resumo em texto para rápida revisão de conceitos de cibersegurança e segurança em APIs.
+### 🧪 Teste 2: Análise de Logs de Cibersegurança
+* **Prompt Inicial (Genérico):** `"Como o artigo analisa os logs de rede?"`
+* **Resultado / Dificuldade:** O NotebookLM trouxe um resumo genérico sem citar os métodos ou ferramentas específicas usadas no estudo.
+* **Prompt Refinado (Eficaz):** `"Extraia do artigo 'Análise de Logs de Rede' o passo a passo utilizado para o tratamento de dados não estruturados de logs de rede, citando as métricas de segurança identificadas e como Python auxilia na tomada de decisão."`
+* **Aprendizado:** Citar o nome da fonte exata e pedir o passo a passo obriga a IA a realizar uma leitura profunda no PDF sem alucinações fora de escopo.
 
 ---
 
-## 📊 Principais Insights e Aprendizados
+## 📖 Miniguia de Estudo (Entrega Final)
 
-* **Análise Contextual Sem Ruído:** O grande diferencial do NotebookLM em relação aos CHATs tradicionais é a capacidade de responder estritamente com base nos documentos carregados, servindo como uma excelente ferramenta de consulta rápida para sintaxe e documentações extensas.
-* **Agilidade no Estudo Ativo:** A geração automática de perguntas e resumos estruturados acelerou o processo de fixação de sintaxes da linguagem e bibliotecas de análise de dados.
-* **Integração de Conhecimentos:** Permitiu cruzar os conceitos de lógica em Python recém-adquiridos com cenários práticos de automação e dados solicitados pelo Bootcamp Bradesco.
+### 📄 Resumo Estruturado dos Tópicos
+* **Fundamentos e Estruturas:** O aprendizado de Python para Dados inicia na escolha correta da estrutura de dados. Listas para coleções mutáveis de itens, Tuplas para imutabilidade e Dicionários para mapeamentos chave-valor.
+* **Vetorização e Broadcasting (NumPy):** O *broadcasting* permite que o NumPy realize operações aritméticas entre arranjos de formatos diferentes sem a necessidade de loops `for` explícitos em Python, otimizando drasticamente a performance computacional.
+* **Manipulação de Dados (Pandas):** Através de *DataFrames*, é possível filtrar, agrupar (`groupby`), tratar valores nulos e consolidar dados brutos em relatórios analíticos.
+* **Análise de Logs & Cibersegurança:** O uso de Python para parsing de arquivos de log possibilita identificar acessos não autorizados, comportamentos anômalos na rede e automatizar alertas de segurança.
+
+### 📚 Glossário de Conceitos Aprendidos
+* **Broadcasting:** Mecanismo do NumPy que alinha dimensões de matrizes/vetores para executar operações elemento a elemento de forma otimizada.
+* **DataFrame:** Estrutura de dados bidimensional, mutável e rotulada (semelhante a uma planilha/tabela de banco de dados) disponibilizada pelo Pandas.
+* **Mutabilidade:** Propriedade de um objeto em Python de ter seu conteúdo alterado após a criação (ex: Listas são mutáveis; Tuplas são imutáveis).
+* **Parsing de Logs:** Processo de leitura, filtragem e conversão de dados brutos de texto de logs em um formato estruturado para análise.
+
+### 🔄 Prompts Reutilizáveis para Revisão Futura
+```text
+1. "Elabore um questionário com 5 perguntas de múltipla escolha e gabarito comentado sobre operações com DataFrames no Pandas com base nas fontes."
+2. "Explique o conceito de broadcasting no NumPy como se eu fosse um iniciante, utilizando uma analogia simples e um exemplo de código de 3 linhas."
+3. "Gere um checklist de segurança em Python para validação e sanitização de dados de entrada em scripts de automação."
+```
+### 📊 Principais Insights e Aprendizados
+
+* **Análise Contextual Sem Ruído:** O grande diferencial do NotebookLM em relação aos chats tradicionais é a capacidade de responder estritamente com base nos documentos carregados, eliminando alucinações de informações fora de contexto.
+* **Agilidade no Estudo Ativo:** A geração automática de perguntas, flashcards e resumos acelerou a fixação da sintaxe da linguagem e o entendimento de bibliotecas de manipulação de dados.
+* **Visão Transversal:** Permitiu unir os conceitos de lógica de programação em Python recém-adquiridos a cenários práticos de automação e segurança da informação exigidos no Bootcamp Bradesco.
 
 ---
 
 ## 📈 Conclusão e Próximos Passos
 
-O uso do NotebookLM provou ser uma estratégia altamente eficiente para organizar a rotina de estudos em tecnologia. Ele atua como um repositório vivo de conhecimento que evolui conforme novas fontes de estudo são adicionadas.
+O uso do NotebookLM provou ser uma estratégia altamente eficiente para organizar a rotina de estudos em tecnologia, atuando como um repositório vivo de conhecimento que evolui conforme novas fontes são adicionadas.
 
 **Próximos passos:**
 - [ ] Expandir o caderno com fontes avançadas sobre consumo de APIs e raspagem de dados (*Web Scraping*).
@@ -80,5 +99,5 @@ O uso do NotebookLM provou ser uma estratégia altamente eficiente para organiza
 
 Desenvolvido por **Carlos Eduardo de Castro** 👋
 
-- **LinkedIn:** [Meu Perfil do LinkedIn](www.linkedin.com/in/carlos-eduardo-de-castro-a4a94b27)
+- **LinkedIn:** [Meu Perfil do LinkedIn](https://www.linkedin.com/in/carlos-eduardo-de-castro-a4a94b27)
 - **GitHub:** [@cecastroprog](https://github.com/cecastroprog)
