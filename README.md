@@ -7,14 +7,15 @@
 ## 📌 Contexto e Objetivos
 
 ### 🎯 Contexto
-Com a ascensão da Inteligência Artificial Generativa e a necessidade constante de análise estratégica de informações, a linguagem **Python** consolidou-se como ferramenta indispensável para integração entre **Análise de Dados**, **Automação** e **Cibersegurança**.
+Este repositório documenta a criação e estruturação de um Caderno Temático no NotebookLM (atual Gemini Notebook), desenvolvido como assistente de estudos para o **Bootcamp Bradesco - GenAI, Dados & Cyber**. O objetivo principal é explorar a Inteligência Artificial Generativa como ferramenta prática de aprendizagem ativa durante o programa.
 
-Este repositório documenta a criação e estruturação de um **Caderno Temático no NotebookLM** (Google), desenvolvido como um assistente de estudos inteligente para centralizar, cruzar e sintetizar documentações técnicas, artigos e códigos focados em Python.
+Diante do crescimento da IA Generativa e da demanda por análise estratégica de informações, a linguagem Python consolida-se como um pilar essencial na integração entre Análise de Dados, Automação e Cibersegurança. A aplicação do NotebookLM permite centralizar, cruzar e sintetizar documentações técnicas, artigos e códigos focados nesse ecossistema.
 
 ### 🚀 Objetivos de Estudo
 1. **Sintetizar Fundamentos e Ferramentas:** Mapear o ecossistema Python voltado à manipulação de dados (`Pandas`, `NumPy`), análise de logs e automação.
 2. **Potencializar o Aprendizado com GenAI:** Utilizar o NotebookLM para realizar consultas contextuais, gerar resumos executivos e criar questionários de fixação baseados exclusivamente nas fontes carregadas.
 3. **Consolidar Práticas de Estudo Contínuo:** Estabelecer um fluxo de trabalho onde ferramentas de IA atuem como copilotos na jornada de transição e aprimoramento em Dados e Cibersegurança.
+
 
 ---
 
@@ -38,7 +39,7 @@ Para garantir alta relevância, precisão e embasamento técnico nas consultas r
 
 ---
 
-## 💡 Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+## 💡 Engenharia de Prompts e Troubleshooting
 
 Nesta etapa, explorei como refinar as perguntas no NotebookLM para extrair respostas precisas e estritamente baseadas nos documentos carregados.
 
