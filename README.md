@@ -34,7 +34,7 @@ Para garantir alta relevância, precisão e embasamento técnico nas consultas r
 - 🐍 **[Tutorial Oficial do Python (v3.13)](https://docs.python.org/pt-br/3.13/tutorial/index.html):** Documentação oficial em português cobrindo sintaxe, estruturas de dados nativas, controle de fluxo e fundamentos da linguagem.
 - 🔢 **[NumPy Basics: Broadcasting Guide](https://numpy.org/doc/stable/user/basics.broadcasting.html):** Documentação técnica do NumPy detalhando o funcionamento de operações de *broadcasting* entre arranjos multidimensionais para computação numérica eficiente.
 - 📊 **[Pandas Cheat Sheet (Dataquest)](https://www.dataquest.io/wp-content/uploads/2024/10/Pandas-Cheat-Sheet.pdf):** Guia rápido e prático de referência cobrindo manipulação, filtragem, transformação e limpeza de estruturas de dados (*DataFrames* e *Series*).
-- 🛡️ **[Análise de Logs de Rede Sem Fio (Artigo Acadêmico / PDF)](./analise_de_logs_de_rede.pdf):** Estudo focado em automação, processamento de logs e segurança da informação aplicada à infraestrutura de TI.
+- 🛡️ **[Análise de Logs de Rede Sem Fio (Artigo Acadêmico / PDF)](./analise_logs_rede.pdf):** Estudo focado em automação, processamento de logs e segurança da informação aplicada à infraestrutura de TI.
 
 ---
 
